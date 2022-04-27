@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.pink{
+  width: 64px;
+  height: 64px;
+  background-color: #eba0bf;
+  border-radius: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.blue{
+  width: 64px;
+  height: 64px;
+  background-color: #74ebd5;
+  border-radius: 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.square{
+  width: 16px;
+  height: 16px;
+  background-color: #1d1d1d;
+  margin: 2px;
+  box-shadow:  0 0 2px #000;
+  transition: 2s ease;
+}
+
+.square:hover{
+  transition-duration: 0s;
+}
